@@ -1,12 +1,15 @@
 {
   "dependencies": {
+    "@iamtraction/google-translate": "^1.1.2",
+    "dotenv": "^17.4.2",
     "ejs": "^5.0.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "nodemailer": "^8.0.8",
+    "twilio": "^6.0.2"
   },
   "name": "juan-realtor",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
